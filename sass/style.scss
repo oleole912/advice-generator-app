@@ -37,8 +37,13 @@ body {
 }
 
 .adviceField {
+    display: none;
     font-size: 1.2rem;
     color: $color-light-cyan;
+}
+
+.adviceField.active {
+    display: block;
 }
 
 .divider {
