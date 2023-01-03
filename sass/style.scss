@@ -5,14 +5,11 @@
 }
 
 body {
-    color: white;
     font-family: $font-main;
 }
 
 .container {
-    width: 80%;
-    height: 700px;
-    margin: 0 auto;
+    height: 100vh;
     background-color: $color-dark-blue;
     display: flex;
     justify-content: center;
@@ -65,7 +62,16 @@ body {
 }
 
 
+@media (max-width: 480px) {
 
+    .card {
+        width: 75%;
+    }
+
+    .divider {
+        width: 100%;
+    }
+}
 
 
 
