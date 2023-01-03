@@ -1,0 +1,71 @@
+@import 'settings';
+
+* {
+    margin: 0;
+}
+
+body {
+    color: white;
+    font-family: $font-main;
+}
+
+.container {
+    width: 80%;
+    height: 700px;
+    margin: 0 auto;
+    background-color: $color-dark-blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: $color-dark-grayish-blue;
+    border-radius: 10px;
+    padding: 2rem;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.title {
+    font-size: 0.9rem;
+    color: $color-neon-green;
+    padding: 0 0 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+
+.adviceField {
+    font-size: 1.2rem;
+    color: $color-light-cyan;
+}
+
+.divider {
+    padding: 1.5rem 0;
+}
+
+.iconBackground {
+    background-color: $color-neon-green;
+    width: 3rem;
+    height: 3rem;
+    bottom: -1.45rem;
+    border-radius: 3rem;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconBackground:hover {
+    box-shadow: 0rem 0rem 2rem $color-neon-green;
+}
+
+
+
+
+
+
