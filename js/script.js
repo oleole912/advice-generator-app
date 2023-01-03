@@ -1,5 +1,3 @@
-
-// get dice icon element
 const button = document.querySelector('.iconBackground');
 const adviceNumber = document.querySelector('.adviceNumber');
 const adviceMessage = document.querySelector('.advice');
